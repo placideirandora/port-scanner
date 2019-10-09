@@ -6,6 +6,7 @@ A Python console application for scanning open ports of a remote host.
 ```
 # Information contained in this repository is for security educational purposes only.
 # Any illegal use of such information is therefore strictly at your own risk.
+# I will not be liable for any losses and damages in connection with the use of such information.
 ```
 
 ## GETTING STARTED
