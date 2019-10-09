@@ -12,7 +12,7 @@ try:
 
     # Display information about the host to be scanned
     print('_' * 110)
-    print('Scanning The Remote Host... ')
+    print('Scanning The Remote Host For Open Ports... ')
     print('Domain Name: {}'.format(remote_host_domain_name))
     print('IP Address: {}'.format(remote_host_ip_address))
     print('_' * 110)
@@ -43,7 +43,7 @@ finalTime = datetime.now()
 
 # Display the information on the terminal
 print('\n')
-print('Scan Completed')
+print('Port Scan Completed')
 print('Started At: {}'.format(initialTime))
 print('Finished At: {}'.format(finalTime))
 
