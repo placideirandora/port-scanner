@@ -1,5 +1,5 @@
 # PORT-SCANNER (PYTHON)
-A Python console application for scanning open ports of a remote host.
+A Python console application that scans a remote host for open ports.
 
 ## DISCLAIMER
 
