@@ -19,7 +19,7 @@ try:
     print('\n')
 
     # Record the scan initial time
-    initialTime = datetime.now()
+    initial_time = datetime.now()
 
     # Scan all ports specified in the Port Range
     for port in range(1, 1025):
@@ -39,13 +39,13 @@ except socket.gaierror:
 
 
 # Record the scan final time
-finalTime = datetime.now()
+final_time = datetime.now()
 
 # Display the information on the terminal
 print('\n')
 print('Port Scan Completed')
-print('Started At: {}'.format(initialTime))
-print('Finished At: {}'.format(finalTime))
+print('Started At: {}'.format(initial_time))
+print('Finished At: {}'.format(final_time))
 
 
 
