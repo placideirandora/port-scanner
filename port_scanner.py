@@ -7,7 +7,7 @@ from datetime import datetime
 try:
     # Ask for a host to scan
     print('\n')
-    remote_host_domain_name = raw_input("Type In A Remote Host To Scan: ")
+    remote_host_domain_name = input("Type In A Remote Host To Scan: ")
     remote_host_ip_address = socket.gethostbyname(remote_host_domain_name)
 
     # Display information about the host to be scanned
