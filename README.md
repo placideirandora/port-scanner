@@ -17,7 +17,7 @@ A Python console application that scans a remote host for open ports.
 $ git clone https://github.com/placideirandora/port-scanner
 ```
 
-### Install Python Extension 
+### Install Python VSCode Extension 
 
 ```
 $ Open the extensions tab, find and install the Python extension by Microsoft. 
