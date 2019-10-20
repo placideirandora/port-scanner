@@ -11,44 +11,23 @@ A Python console application that scans a remote host for open ports.
 
 ## GETTING STARTED
 
-### Download And Install PyCharm Community Edition
+### Clone The Project
 
 ```
-1. Copy and visit this link with your browser: www.jetbrains.com/pycharm/
-```
-```
-2. Scroll down and make sure you download the community edition which is free.
+$ git clone https://github.com/placideirandora/port-scanner
 ```
 
-### Open PyCharm
+### Install Python Extension 
 
 ```
-1. Click on 'Check out from Version Control'.
+$ Open the extensions tab, find and install the Python extension by Microsoft. 
 ```
 ```
-2. Click on 'Git' (the first option).
+$ Extension name: Python.
 ```
+
+### Start The App
+
 ```
-3. Paste in the following GitHub Repository URL: https://github.com/placideirandora/port-scanner
-```
-```
-4. Click on 'Clone' (to clone the repo locally).
-```
-```
-5. Click on 'Yes' when asked to open the cloned the repository (directory).
-```
-```
-6. Double-Click on 'port_scanner.py' to open the file.
-```
-```
-7. Click on 'Configure Python Interpreter' to create a Python Virtual Environment for the project.
-```
-```
-8. Click on the 'Settings Logo/Gear Icon' in the top-right corner and add a 'Virtualenv Environment' as a new environment. Then, Click on 'Ok'.
-```
-```
-9. Click on 'Run' from top menu. Click on 'Run' again.
-```
-```
-10. Click on 'port_scanner' to run the code.
+$ Run the following command with VSCODE terminal to start the app: python3 port_scanner.py 
 ```
