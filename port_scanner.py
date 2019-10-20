@@ -71,8 +71,3 @@ if len(open_ports) != 0:
 else:
     print('\n')
     print('No Open Ports Found.')
-
-
-
-
-
