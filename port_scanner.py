@@ -42,7 +42,13 @@ except KeyboardInterrupt:
     print('You Have Stopped The Scan.\n')
     print('Started At: {}'.format(initial_time))
     print('Finished At: {}'.format(final_time))
-    print('Open Ports: {}'.format(open_ports))
+    
+    if len(open_ports) != 0:
+        print('Open Ports: {}'.format(open_ports))
+    else:
+        print('\n')
+        print('No Open Ports Found.')
+
     print('\n')
     sys.exit()
 except socket.gaierror:
@@ -59,7 +65,12 @@ print('\n')
 print('Port Scan Completed')
 print('Started At: {}'.format(initial_time))
 print('Finished At: {}'.format(final_time))
-print('Open Ports: {}'.format(open_ports))
+
+if len(open_ports) != 0:
+        print('Open Ports: {}'.format(open_ports))
+else:
+    print('\n')
+    print('No Open Ports Found.')
 
 
 
