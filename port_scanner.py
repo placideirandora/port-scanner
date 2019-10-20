@@ -54,6 +54,7 @@ except KeyboardInterrupt:
 except socket.gaierror:
     print('\n')
     print('Hostname Could Not Be Resolved. Exiting...')
+    print('\n')
     sys.exit()
 
 
