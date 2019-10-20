@@ -21,11 +21,15 @@ try:
     # Record the scan initial time
     initial_time = datetime.now()
 
+    # List to keep open ports
+    open_ports = []
+
     # Scan all ports specified in the Port Range
     for port in range(1, 1025):
         network_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         connection_result = network_socket.connect_ex((remote_host_ip_address, port))
         if connection_result == 0:
+            open_ports.append(port)
             print('Port {}: Open'.format(port))
         else:
             print('Port {}: Closed'.format(port))
@@ -38,6 +42,7 @@ except KeyboardInterrupt:
     print('You Have Stopped The Scan.\n')
     print('Started At: {}'.format(initial_time))
     print('Finished At: {}'.format(final_time))
+    print('Open Ports: {}'.format(open_ports))
     print('\n')
     sys.exit()
 except socket.gaierror:
@@ -54,6 +59,7 @@ print('\n')
 print('Port Scan Completed')
 print('Started At: {}'.format(initial_time))
 print('Finished At: {}'.format(final_time))
+print('Open Ports: {}'.format(open_ports))
 
 
 
