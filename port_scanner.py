@@ -31,8 +31,14 @@ try:
             print('Port {}: Closed'.format(port))
         network_socket.close()
 except KeyboardInterrupt:
+    # Record the scan final time
+    final_time = datetime.now()
+
     print('\n')
-    print('You Have Stopped The Scan.')
+    print('You Have Stopped The Scan.\n')
+    print('Started At: {}'.format(initial_time))
+    print('Finished At: {}'.format(final_time))
+    print('\n')
     sys.exit()
 except socket.gaierror:
     print('\n')
