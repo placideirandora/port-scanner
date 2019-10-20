@@ -27,6 +27,8 @@ try:
         connection_result = network_socket.connect_ex((remote_host_ip_address, port))
         if connection_result == 0:
             print('Port {}: Open'.format(port))
+        else:
+            print('Port {}: Closed'.format(port))
         network_socket.close()
 except KeyboardInterrupt:
     print('\n')
