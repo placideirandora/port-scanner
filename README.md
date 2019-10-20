@@ -29,7 +29,7 @@ $ Extension name: Python.
 ### Start The App
 
 ```
-$ First Approach: Run the following command with VSCODE terminal to start the app: python3 port_scanner.py 
+$ First Approach: Run the following command with VSCODE terminal: python3 port_scanner.py 
 ```
 ```
 $ Second Approach: Righ-click in the VSCODE editor and select: Run Python File in Terminal
