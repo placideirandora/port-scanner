@@ -1,5 +1,5 @@
-# PORT-SCANNER (PYTHON)
-A Python console application that scans a remote host for open ports.
+# PORT SCANNER (PYTHON)
+A console application that scans a remote host for open ports.
 
 ## DISCLAIMER
 
@@ -32,5 +32,5 @@ $ Extension name: Python.
 $ First Approach: Run the following command in the VSCODE terminal: python3 port_scanner.py 
 ```
 ```
-$ Second Approach: Righ-click in the VSCODE editor and select: Run Python File in Terminal
+$ Second Approach: Right-click in the VSCODE editor and select: Run Python File in Terminal
 ```
